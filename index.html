@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="stylesheet" href="/bootstrap.min.css" />
+    <link rel="stylesheet" href="/index.css" />
+    <title>Dice Game</title>
+  </head>
+  <body class="text-center">
+    <h1>Roll Your Dice</h1>
+    <div class="row">
+      <div class="col-sm-4 offset-sm-2 playerdice">
+        <h2>You</h2>
+        <img src="/images/Dice-1.png" alt="Your Dice" />
+      </div>
+      <div class="col-sm-4 computerdice">
+        <h2>Computer</h2>
+        <img src="/images/Dice-1.png" alt="Computer Dice" />
+      </div>
+    </div>
+    <button type="button" class="btn btn-success" onclick="roll()">
+      Roll
+    </button>
+    <script src="/index.js"></script>
+  </body>
+</html>
